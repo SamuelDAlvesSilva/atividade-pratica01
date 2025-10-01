@@ -1,0 +1,196 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorney!</title>
+    <link rel="stylesheet" href="atividade-pratica01.css">
+    <script src="https://kit.fontawesome.com/79ae9bc02e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="div-icon"><i class="fa-solid fa-compass"></i></div>
+
+        <div>
+            <h1>Jorney!</h1>
+        </div>
+
+        <div class="div-list">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">QUEM SOMOS</a>
+                </li>
+                <li>
+                    <a href="">SERVIÇOS</a>
+                </li>
+                <li>
+                    <a href="">PARA SUA EMPRESA</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section-01">
+
+        <button><a href="">DESTINOS</a></button>
+
+    </section>
+
+    <section class="section-02">
+        <div><img src="imagens/pexels-denisa-lesniakova-430168073-15604545.jpg" alt="duas cadeiras de frente pra praia"
+                class="img-section02"></div>
+
+        <div>
+            <p>QUEM SOMOS
+                A Jorney! é uma agência que trabalha com uma proposta diferenciada no mercado: Atendimento personalizado
+                ao cliente.
+                Ao entrar em contato conosco você será atendido por pessoas que realmente conhecem do assunto, uma
+                equipe com mais de 15 anos de experiência no setor, profissionais que passaram pelas maiores agencias do
+                pais e agora se unem para oferecer um atendimento exclusivo em sua própria agencia. Você será informado
+                sobre os melhores destinos, os melhores hotéis e os preços mais baixos, além de locais para diversão e
+                entretenimento. Tudo de acordo com o seu gosto e o seu bolso.
+
+                Trabalhamos para transformar essa experiência na melhor conquista de sua vida, através de novas
+                tendências e ampla rede de produtos e serviços turísticos.
+
+                Que viagem marcou a sua vida?
+                Que viagem você fez nos últimos anos que se tornou inesquecível?
+                Que viagem você ainda pretende fazer?
+
+                Essas e outras perguntas, nós da Jorney! queremos te ajudar a responder, porque aqui, o termo viagem
+                fala diretamente ao nosso slogan: inesquecível como deve ser!</p>
+        </div>
+    </section>
+
+
+    <section class="section-03">
+
+
+
+        <div class="div-section-03">
+            <img src="imagens/disney-2.jpg" alt="disney" class="div-section-03-disney">
+            <p>INGRESSOS DISNEY E ATRAÇÕES
+                Os parques temáticos são a principal atração dos pacotes para Orlando. Tem diversão para todas as idades
+                e gostos.</p>
+        </div>
+
+
+
+        <div class="div-section-03">
+            <img src="imagens/passagens.jpg" alt="passagens" class="div-section-03-img">
+            <p>RESERVAS HOTEL E PASSAGENS AÉREAS
+                A Qviagem! possui sistema “on-line” de reservas e emissões de passagens aéreas. Consulte-nos!</p>
+        </div>
+
+        <div class="div-section-03">
+            <img src="imagens/travel-300x245.jpg" alt="" class="div-section-03-img">
+            <p>SEGURO VIAGEM
+                Não deixe a segurança de lado, contrate agora o serviço de Seguro Viagem oferecido pela Qviagem! e viaje
+                protegido.</p>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: rgb(161, 202, 195);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.div-icon {
+    font-size: 40px;
+
+}
+
+.div-list ul {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.div-list ul li {
+    list-style: none;
+    
+}
+
+.div-list ul li a{
+ text-decoration: none;
+color:#000000;
+}
+
+
+.section-01 {
+    background-image: url(imagens/sites-de-viagens.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-01 button {
+    background-color: rgba(251, 252, 252, 0.548);
+    color: black;
+    width: 145px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.p-section01 {
+    font-size: 25px;
+    color: #000000;
+}
+
+
+.section-02 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+}
+
+.img-section02 {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.section-03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+
+
+.div-section-03-disney{
+    width: 300px;
+    height: 250px;
+    background-color: darkkhaki;
+}
