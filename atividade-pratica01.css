@@ -6,9 +6,14 @@ header {
 
 }
 
-.div-icon {
-    font-size: 40px;
+header h1 {
+    font-size: 35px;
 
+}
+
+.header h1 i {
+    font-size: 60px;
+    color: coral;
 }
 
 .div-list ul {
@@ -25,6 +30,10 @@ header {
 .div-list ul li a {
     text-decoration: none;
     color: #000000;
+}
+
+.section-02-div-p span {
+    color: chocolate;
 }
 
 
@@ -51,6 +60,7 @@ header {
     width: 155px;
     padding: 10px;
     border-radius: 30px;
+    
 }
 
 .section-02-div-p {
@@ -154,6 +164,7 @@ header {
     align-items: center;
     text-align: center;
     gap: 50px;
+    background-color: rgba(127, 255, 212, 0.637);
 
 }
 
